@@ -1,0 +1,64 @@
+{
+  "name": "uncerton-react-icon",
+  "version": "1.0.0-alpha.1",
+  "type": "module",
+  "author": "Hiroki Nakatani <@1101hiroki_n>",
+  "description": "Uncerton Icons for React",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1101hirokin/uncerton-react-icons"
+  },
+  "bugs": {
+    "url": "https://github.com/1101hirokin/uncerton-react-icons/issues"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "icon",
+    "iconset",
+    "svg",
+    "uncerton"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build && tsc",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "chroma-js": "^2.4.2",
+    "clsx": "^2.1.0",
+    "uuid": "^9.0.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^2.4.3",
+    "@types/node": "^20.11.8",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@types/uuid": "^9.0.8",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "path": "^0.12.7",
+    "rollup-plugin-copy": "^3.5.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  },
+  "private": false
+}
